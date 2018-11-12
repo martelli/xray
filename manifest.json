@@ -1,0 +1,16 @@
+{
+    "name": "xrayglass",
+    "version": "1.0",
+    "description": "Allows one to read through (pay)walls",
+     "background": {
+      "scripts": ["background.js"],
+      "persistent": true
+    },
+    "permissions": [
+      "webRequest",
+      "webRequestBlocking",
+      "http://*/*",
+      "https://*/*"
+    ],
+    "manifest_version": 2
+}
